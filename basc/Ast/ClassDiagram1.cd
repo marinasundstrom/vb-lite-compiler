@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Basic.Ast.AstNode" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEgAAAAAAAAAAAAhEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\AstNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Basic.Ast.UnaryExpression" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Ast\UnaryExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.BinaryExpression" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAIAAAAAAA=</HashCode>
+      <FileName>Ast\BinaryExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Block" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.CharLiteralString" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\CharLiteralString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.CharStringLiteral" Collapsed="true">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\CharStringLiteral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Class" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.DeclareStatement" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Ast\DeclareStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.EmitContext" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\EmitContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.ErrorExpression" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\ErrorExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.ErrorStatement" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\ErrorStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Expression" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Expression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.ExpressionStatement" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Ast\ExpressionStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.FullNamedExpression" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\FullNamedExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Function" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.GlobalRootNamespace" Collapsed="true">
+    <Position X="5.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\GlobalRootNamespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.IntegerConstant" Collapsed="true">
+    <Position X="17" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\IntegerConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Member" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAAAAAAAAAAAAQBQAIAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Ast\Member.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Basic.Ast.MemberAccess" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\MemberAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.MemberName" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAQAAAAAABAACAAAAAAAAAA=</HashCode>
+      <FileName>Ast\MemberName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.MethodCallOrArrayDereference" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Ast\MethodCallOrArrayDereference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.MethodDefStatement" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\MethodDefStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.ModifierPairs" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\ModifierPairs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Module" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Module.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Namespace" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAAEAAAAAQAQAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Ast\Namespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Parameter" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.ParameterList" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\ParameterList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.RootNamespace" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\RootNamespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Statement" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Statement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Subroutine" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Subroutine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.TopLevelBlock" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Ast\TopLevelBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.Type" Collapsed="true">
+    <Position X="1.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Basic.Ast.TypeRepository" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Ast\TypeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.Ast.TypeSpecification" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Ast\TypeSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basic.TokenStringConstants" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oCAQAAQABKAAAEAQAAAAakARAIAAAAgAgCAQiAAAAMo=</HashCode>
+      <FileName>Ast\TokenStringConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Basic.Ast.IAstNode" Collapsed="true">
+    <Position X="21.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEgAAAAAAAAAAAAhEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\IAstNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Basic.Ast.IMemberDefinition" Collapsed="true">
+    <Position X="9.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\IMemberDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Basic.Ast.IMethodDefinition" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\IMethodDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Basic.Ast.ITypeDefinition" Collapsed="true">
+    <Position X="10.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\ITypeDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Basic.Ast.Modifier" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAIAgAAAAEAAAAAAAAAAAAAEAQAA=</HashCode>
+      <FileName>Ast\Modifier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Basic.Ast.Operator" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAQAAAAAAEAAgAAAAAABAABAAAAhgCAMAAQAAAA=</HashCode>
+      <FileName>Ast\Operator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Basic.Ast.Separators" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Separators.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

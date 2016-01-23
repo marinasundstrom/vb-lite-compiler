@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03DC007D-7816-43A8-ADA7-C85A69478A8B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Basic</RootNamespace>
+    <AssemblyName>basc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayTypeDefinition.cs" />
+    <Compile Include="AssemblyModule.cs" />
+    <Compile Include="Ast\AstNode.cs" />
+    <Compile Include="Ast\BinaryExpression.cs" />
+    <Compile Include="Ast\Block.cs" />
+    <Compile Include="Ast\ClassOrStructDef.cs" />
+    <Compile Include="Ast\CommentStatement.cs" />
+    <Compile Include="Ast\Constant.cs" />
+    <Compile Include="Ast\ConstructorDef.cs" />
+    <Compile Include="Ast\DeclarationSpace.cs" />
+    <Compile Include="Ast\EnumDef.cs" />
+    <Compile Include="Ast\FieldDef.cs" />
+    <Compile Include="Ast\GenericArguments.cs" />
+    <Compile Include="Ast\GenericNameExpression.cs" />
+    <Compile Include="Ast\IfStatement.cs" />
+    <Compile Include="Ast\IIndexableVariable.cs" />
+    <Compile Include="Ast\PropertyDef.cs" />
+    <Compile Include="Ast\WhileStatement.cs" />
+    <Compile Include="AttributeInstance.cs" />
+    <Compile Include="IVariable.cs" />
+    <Compile Include="Ast\Local.cs" />
+    <Compile Include="Ast\SourceData.cs" />
+    <Compile Include="Ast\DeclareStatement.cs" />
+    <Compile Include="Ast\EmitContext.cs" />
+    <Compile Include="Ast\ErrorExpression.cs" />
+    <Compile Include="Ast\ErrorStatement.cs" />
+    <Compile Include="Ast\Expression.cs" />
+    <Compile Include="Ast\ExpressionStatement.cs" />
+    <Compile Include="Ast\ClassStructOrModuleDef.cs" />
+    <Compile Include="Ast\SimpleName.cs" />
+    <Compile Include="CodeGenerator.cs" />
+    <Compile Include="Compiler.cs" />
+    <Compile Include="FileEntry.cs" />
+    <Compile Include="Ast\FullNamedExpression.cs" />
+    <Compile Include="Ast\FunctionDef.cs" />
+    <Compile Include="Ast\GlobalRootNamespace.cs" />
+    <Compile Include="Ast\IAstNode.cs" />
+    <Compile Include="IFieldDefinition.cs" />
+    <Compile Include="IMemberDefinition.cs" />
+    <Compile Include="Ast\IntegerConstant.cs" />
+    <Compile Include="ImportedField.cs" />
+    <Compile Include="ImportedMember.cs" />
+    <Compile Include="ImportedMethod.cs" />
+    <Compile Include="ImportedMethodParameter.cs" />
+    <Compile Include="ImportedType.cs" />
+    <Compile Include="InternalTypeAliases.cs" />
+    <Compile Include="IParameterDefinition.cs" />
+    <Compile Include="IPropertyDefinition.cs" />
+    <Compile Include="ITypeDefinition.cs" />
+    <Compile Include="Ast\MemberDef.cs" />
+    <Compile Include="Ast\VariableAccess.cs" />
+    <Compile Include="Ast\MethodCallOrArrayDereference.cs" />
+    <Compile Include="Ast\Modifier.cs" />
+    <Compile Include="Ast\ModifierPairs.cs" />
+    <Compile Include="Ast\ModuleDef.cs" />
+    <Compile Include="Ast\Namespace.cs" />
+    <Compile Include="FileNamespaceEntry.cs" />
+    <Compile Include="Ast\Operator.cs" />
+    <Compile Include="Ast\RootNamespace.cs" />
+    <Compile Include="Ast\Separators.cs" />
+    <Compile Include="Ast\Statement.cs" />
+    <Compile Include="Ast\SubroutineDef.cs" />
+    <Compile Include="Ast\ScopeBlock.cs" />
+    <Compile Include="Ast\TypeDef.cs" />
+    <Compile Include="ReportPrinterOptions.cs" />
+    <Compile Include="Ast\ReturnStatement.cs" />
+    <Compile Include="ReportColorScheme.cs" />
+    <Compile Include="RootContext.cs" />
+    <Compile Include="Ast\LocalScope.cs" />
+    <Compile Include="RuntimeLoader.cs" />
+    <Compile Include="TypeManager.cs" />
+    <Compile Include="Ast\UnaryExpression.cs" />
+    <Compile Include="Ast\ClassDef.cs" />
+    <Compile Include="Ast\CharStringLiteral.cs" />
+    <Compile Include="MessageDescriptor.cs" />
+    <Compile Include="IInputSource.cs" />
+    <Compile Include="IMethodDefinition.cs" />
+    <Compile Include="Ast\ImportDirective.cs" />
+    <Compile Include="IMultiFileTokenizer.cs" />
+    <Compile Include="Ast\Parameter.cs" />
+    <Compile Include="Ast\MemberName.cs" />
+    <Compile Include="Ast\ParameterList.cs" />
+    <Compile Include="ReportItem.cs" />
+    <Compile Include="Ast\MethodDef.cs" />
+    <Compile Include="NamespaceEntry.cs" />
+    <Compile Include="ReportPrinter.cs" />
+    <Compile Include="BasicParser.SemanticAnalyzer.cs" />
+    <Compile Include="SourceSpan.cs" />
+    <Compile Include="BasicParser.Helper.cs" />
+    <Compile Include="CompilerContext.cs" />
+    <Compile Include="SourceUnit.cs" />
+    <Compile Include="InternalCompilerException.cs" />
+    <Compile Include="ITokenizer.cs" />
+    <Compile Include="MultiFileTokenizer.cs" />
+    <Compile Include="SourceFile.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="SourceLocation.cs" />
+    <Compile Include="MessageType.cs" />
+    <Compile Include="BasicParser.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringResources.cs" />
+    <Compile Include="StructDef.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="TokenExtensions.cs" />
+    <Compile Include="TokenInfo.cs" />
+    <Compile Include="Tokenizer.cs" />
+    <Compile Include="TokenizerEventArgs.cs" />
+    <Compile Include="Ast\TokenStringConstants.cs" />
+    <Compile Include="TokenList.cs" />
+    <Compile Include="TypeEntry.cs" />
+    <Compile Include="VBErrors.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ast\ClassDiagram1.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Basic.Runtime\Basic.Runtime.csproj">
+      <Project>{265A1649-45E5-4682-A8A0-6FC4AAF45F9D}</Project>
+      <Name>Basic.Runtime</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

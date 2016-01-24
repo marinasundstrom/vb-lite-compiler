@@ -14,5 +14,7 @@ The documentation will be elaborated on shortly.
 * Generates modules and functions that can be executed.
 * Code design and structure is inspired by the Mono C# and Small Basic compilers.
 * Expression parser logic is inspired from the IronPython compiler.
+* Partial implementation of object-oriented concepts: classes, modules and namespaces.
+* Error messages that highlights faulty lines of code with colorization.
 
 Run the Test project.

@@ -12,7 +12,7 @@ The documentation will be elaborated on shortly.
 * Written in C#.
 * Targets .NET 4.0 Client Profile
 * Generates modules and functions that can be executed.
-* Code design and structure is inspired by Mono C# compiler.
+* Code design and structure is inspired by the Mono C# and Small Basic compilers.
 * Expression parser logic is inspired from the IronPython compiler.
 
 Run the Test project.

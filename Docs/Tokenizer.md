@@ -1,14 +1,14 @@
 Tokenizer
 =
 
-The Tokenizer reads the input stream and creates Tokens for every significant symbol that is being identified. Thes Tokens is then to be parsed by the Parser.
+The Tokenizer reads the input stream and creates Tokens for every significant symbol that is being identified. These Tokens are then to be parsed by the Parser.
 
 Notable Methods
 ----
 
 * GetNextToken() - Reads the next unread token.
-
 * PeekToken() - Peeks the next unread token.
+
 
 Internals
 ----

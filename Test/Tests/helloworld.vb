@@ -8,7 +8,7 @@ Namespace ConsoleApplication1
     Public Module Module1
         ' Fields
         Private x1 As Integer = Fun1(2, 3)
-        Private x2 As Integer = Fun1(x1, 3) Some Error
+        Private x2 As Integer = Fun1(x1, 3) smart hello
 
         ' An Entry Point.
         Sub Main()
